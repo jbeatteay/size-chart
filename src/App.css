@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.size-heading {
+  font-weight: bolder;
+}
+h1 {
+  text-align: center;
+  font-size: 6vw;
+  margin: 10px 0;
+
+}
+h2 {
+  text-align: center;
+  font-size: 8vw;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+table tr td {
+  width: 10%;
+}
+#root select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 0px;
+    margin: 10px auto;
+}
+@media screen and (min-width:640px) {
+  h2 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width:1024px) {
+  h2 {
+    font-size: 2em;
+  }
+  #root {
+    max-width: 80em;
+    margin: 0 auto;
+  }
+
+}
+form select {
+    background-color: #f5f4f2;
+    font-family: inherit;
+    border: 1px solid #f5f4f2;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #362d2e;
+    display: block;
+    font-size: 1.14286em;
+    margin: 0 0 0.78571em 0;
+    padding: 0.39286em;
+    height: 2.25em;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
+    -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
+    transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    cursor: pointer;
+    padding-right: 20px;
+}
+form select {
+    padding-right: 2.1em;
+    border: 1px solid #362d2e;
+    box-shadow: none;
+    background-position: right 10px center;
+    background-size: 12px 6px;
+    border-radius: 0;
+}
+.row-heading td {
+  font-weight: bold;
+}
+
+
+
