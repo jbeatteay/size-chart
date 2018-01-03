@@ -67,7 +67,7 @@ table tr td {
     font-size: 2em;
   }
   #root {
-    max-width: 80em;
+    max-width: 65em;
     margin: 0 auto;
   }
 
@@ -82,7 +82,7 @@ form select {
     display: block;
     font-size: 1.14286em;
     margin: 0 0 0.78571em 0;
-    padding: 0.39286em;
+    padding: 0.5em;
     height: 2.25em;
     width: 100%;
     -moz-box-sizing: border-box;
@@ -91,13 +91,11 @@ form select {
     -webkit-transition: -webkit-box-shadow 0.45s, border-color 0.45s ease-in-out;
     -moz-transition: -moz-box-shadow 0.45s, border-color 0.45s ease-in-out;
     transition: box-shadow 0.45s, border-color 0.45s ease-in-out;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
     text-indent: 1px;
     text-overflow: '';
     cursor: pointer;
     padding-right: 20px;
+    border-radius: 0;
 }
 form select {
     padding-right: 2.1em;
@@ -111,5 +109,7 @@ form select {
   font-weight: bold;
 }
 
-
+table tr:hover {
+    background-color: #f5a019;
+}
 
