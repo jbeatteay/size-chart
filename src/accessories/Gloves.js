@@ -1,6 +1,10 @@
 import React from 'react';
 import SizeTable from './SizeTable.js';
 
+
+
+
+
 const Gloves = ({sizes}) => {
 
     return (

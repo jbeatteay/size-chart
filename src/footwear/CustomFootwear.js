@@ -4,6 +4,8 @@ import WomensFootwear from './adult/WomensFootwear.js';
 import YouthFootwear from './kids/YouthFootwear.js';
 import JuniorFootwear from './kids/JuniorFootwear.js';
 
+
+
 const CustomFootwear = ({sizes}) => {
 		
     return (

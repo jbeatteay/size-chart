@@ -11,6 +11,8 @@ import SizeSelect from './SizeSelect.js';
 import sizes from './sizes.json';
 import './App.css';
 
+
+
 class App extends Component {
 
   state = {
